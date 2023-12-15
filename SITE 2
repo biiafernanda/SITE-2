@@ -1,0 +1,250 @@
+<html>
+<style>
+
+body {
+    margin: 0;
+}
+
+.Principal {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Ajusta para ocupar toda a altura da tela */
+}
+
+.titulo {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(49, 172, 125);
+    color: rgb(252, 252, 252);
+    text-align: center;
+    line-height: 50px;
+}
+
+.corpo {
+    display: flex;
+}
+
+.menu-lateral {
+    width: 20%;
+    background-color: #0c0b0c;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    height: 100vh;
+}
+
+.conteudo {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.rodape {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(43, 226, 89);
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+
+.caixa {
+    height: 250px;
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+</style>
+<body>
+
+<div class="Principal">
+
+    <div class="titulo"> <html lang="en">
+        <head>
+            <meta charset="UTF_8"
+            <title>TRABALHAMOS PARA SEU ESTILO</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    margin: 0;
+                    padding: 0;
+            
+                }
+                header {
+                    background-color:rgb(252, 252, 252);
+                    padding: 20px
+                    text-align: center;
+                }
+                main {
+                    padding: 20px;
+                }
+                footer {
+                    background-color:rgb(247, 247, 247);
+                    color:rgb(212, 212, 212);
+                    text-align: center;
+                    padding: 10px 0;
+                    position: fixed;
+                    bottom: 0;
+                    width: 100%
+               
+    
+                 <html>
+                    <head>
+                    <title>PRODUTOS:</title>
+                    
+                    <style>
+                    
+                    .div_principal {
+                        background-color:blanchedalmond;
+                        height: 600px;
+                        width: 1350px;
+                        display: flex;
+                    }
+                        
+                    .caixa1 {
+                        background-color:cornsilk(148, 202, 123);
+                        width: 500px;
+                        height: 200px;
+                    } 
+                        
+                     .caixa2 {
+                        background-color:rgb(255, 255, 255);
+                        width: 500px;
+                        height: 200px;
+                     }   
+                      
+                     
+    
+                        
+                        
+                    </style>   
+                                        
+    
+                    
+                    
+                  
+                    
+            
+                   
+                      </div>
+
+    <div class="corpo">
+
+        <div class="menu-lateral">
+            <!-- Conteúdo do menu lateral -->
+            <h2>SURGIU DÚVIDA?</h2>
+            <ul>
+                <li><a href="#">TELEFONES:</a></li>
+                <li><a href="#">032 991471235</a></li>
+                <li><a href="#">032 991377401</a></li>
+            </ul>
+        </div>
+
+        <div class="conteudo">
+
+            <div class="caixa" style="background-color:hwb(0 100% 0%);">
+                <ul>
+                    <a href="#CALÇADOS"> <LI>TODOS OS TAMANHOS DISPONIVEIS!</LI> </a>
+                    <a href="#ROUPAS"> <LI>TODOS OS NÚMEROS!</LI> </a>
+                     <a href="#GOSTOU?! CONTINUE E VEJA NOSSAS PEÇAS"><LI>LOJA 100% DIGITAL</LI> </a>
+                     <a href="#ACEITAMOS PIX,CARTÕES E DINHEIRO EM ESPÉCIE"<LI> CARTÕES DÉBITO E CRÉDITO</LI> </a>
+                   
+                   </ul>
+            </div>
+
+            <div class="caixa" style="background-color:hwb(0 75% 15%)">
+                <H1 id ="BOTAS"> BOTAS, SALTOS E Tênis:</H1>
+                <P>PRETA</P>
+                <p>AZUL</p>
+                <P>VERMELHO</P>
+                <P>NUDE</P>
+            </div>
+
+            <div class="caixa" style="background-color:hwb(0 75% 15%);">
+                <H3 ID="ROUPAS FEMININAS">ROUPAS FEMININAS NOS MODELOS:</H3>
+                <P>Calça de alfaiataria.</P>
+                <P>Cropped.</P>
+                <P>Camisas.</P>
+                <P>Babados.</P>
+                <P>Peças estampadas.</P>  
+            </div>
+
+            <div class="caixa" style="background-color:hwb(0 75% 15%);">
+                
+<H4 ID="ROUPAS MASCULINAS">ROUPAS MASCULINAS NOS MODELOS:</H4>
+<P>Casaco longo.</P>
+<P>Terno em todas as suas formas.</P>
+<P>Calças largas</P>
+<P>Casulo.</P>
+<P>Toque escocês</P>
+            </div>
+
+            <div class="caixa" style="background-color:hwb(0 75% 15%);">
+                <form>
+                    <fieldset>
+                      <legend>Dê SUA SUGESTÃO:</legend>
+                      <p>
+                        <input type="GOSTEI DOS PRODUTOS" name="GOSTEI DOS PRODUTOS" id="GOSTEI DOS PRODUTOS" value="GOSTEI DOS PRODUTOS" />
+                        <label for="size_1">ÓTIMO</label>
+                      </p>
+                      <p>
+                        <input type="NÃO GOSTEI DOS PRODUTOS" name="NÃO GOSTEI DOS PRODUTOS" id="NÃO GOSTEI DOS PRODUTOS" value="NÃO GOSTEI DOS PRODUTOS" />
+                        <label for="NÃO GOSTEI DOS PRODUTOS">MAIS OU MENOS</label>
+                      </p>
+                      <p>
+                        <input type="PODERIA MELHORAR" name="PODERIA MELHORAR" id="PODERIA MELHORAS" value="PODERIA MELHORAR" />
+                        <label for="PODERIA MELHORAR">PÉSSIMO</label>
+                      </p>
+                    </fieldset>
+                  </form>
+
+            </div>
+
+            <div class="caixa" style="hwb(0 75% 15%);">
+                <body>
+                    <div class="container-lista">
+                        <ul>
+                         <li>
+                         <h2>Facebook</h2>
+                         <p>
+                            LOJA TUDO
+                         </p>
+                         </li>
+                 
+                         <li>
+                         <h2>Instagram</h2>
+                         <p>
+                            @LOJASTUDO
+                         </li>
+                 
+                        
+                            </ul>
+                     </div>        
+                 </body>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <figcaption>
+        <a href="https://img.freepik.com/fotos-premium/mesa-de-madeira-com-desfoque-de-fundo-de-loja-de-roupas-em-shopping-center_293060-5961.jpg?w=740"> </a>
+         <img src="https://img.freepik.com/fotos-premium/mesa-de-madeira-com-desfoque-de-fundo-de-loja-de-roupas-em-shopping-center_293060-5961.jpg?w=740"> 
+         </figcaption>
+
+    <div class="rodape">
+        ENTRE EM CONTATO CONOSCO
+    </div>
+
+</div>
+
+</body>
+</html>
