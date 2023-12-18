@@ -9,6 +9,8 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh; /* Ajusta para ocupar toda a altura da tela */
+    background-color: rgb(211, 166, 124);
+    background-image: url(https://img.freepik.com/fotos-premium/mesa-de-madeira-com-desfoque-de-fundo-de-loja-de-roupas-em-shopping-center_293060-5961.jpg?w=740);
 }
 
 .titulo {
@@ -93,19 +95,8 @@ body {
                     bottom: 0;
                     width: 100%
                
-    
-                 <html>
-                    <head>
-                    <title>PRODUTOS:</title>
-                    
-                    <style>
-                    
-                    .div_principal {
-                        background-color:blanchedalmond;
-                        height: 600px;
-                        width: 1350px;
-                        display: flex;
-                    }
+                
+                
                         
                     .caixa1 {
                         background-color:cornsilk(148, 202, 123);
@@ -148,7 +139,7 @@ body {
 
         <div class="conteudo">
 
-            <div class="caixa" style="background-color:hwb(0 100% 0%);">
+            <div class="caixa" style="background-color:#0c0b0c (0 100% 0%);">
                 <ul>
                     <a href="#CALÇADOS"> <LI>TODOS OS TAMANHOS DISPONIVEIS!</LI> </a>
                     <a href="#ROUPAS"> <LI>TODOS OS NÚMEROS!</LI> </a>
@@ -206,7 +197,7 @@ body {
 
             </div>
 
-            <div class="caixa" style="hwb(0 75% 15%);">
+            <div class="caixa" style="hwb(0 75% 15%)">
                 <body>
                     <div class="container-lista">
                         <ul>
@@ -225,9 +216,10 @@ body {
                  
                         
                             </ul>
-                     </div>        
-                 </body>
 
+                            
+                        
+                     </div>       
 
             </div>
 
@@ -235,11 +227,7 @@ body {
 
     </div>
 
-    <figcaption>
-        <a href="https://img.freepik.com/fotos-premium/mesa-de-madeira-com-desfoque-de-fundo-de-loja-de-roupas-em-shopping-center_293060-5961.jpg?w=740"> </a>
-         <img src="https://img.freepik.com/fotos-premium/mesa-de-madeira-com-desfoque-de-fundo-de-loja-de-roupas-em-shopping-center_293060-5961.jpg?w=740"> 
-         </figcaption>
-
+   
     <div class="rodape">
         ENTRE EM CONTATO CONOSCO
     </div>
